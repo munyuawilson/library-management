@@ -47,13 +47,13 @@ def send_button_click():
         current_time = datetime.now()
 
         # Define the number of hours to add
-        hours_to_add = 2
+        hours_to_add = 1
 
         # Calculate the new time by creating a new datetime object
         new_time = current_time.replace(minute=current_time.minute + hours_to_add)
         while True:
             if datetime.now()!=new_time:
-                root.attributes('-fullscreen', True)
+                root.deiconify()
                 break
             
     else:
@@ -102,6 +102,7 @@ def email_label_function():
 
 
 email_label_function()
+root.attributes('-fullscreen', True)
 
 root.protocol("WM_DELETE_WINDOW",root)
 
