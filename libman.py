@@ -143,6 +143,7 @@ email_label_function()
 root.attributes("-topmost", True)
 root.attributes('-fullscreen', True)
 
+
 root.protocol("WM_DELETE_WINDOW",root)
 
 root.mainloop()
