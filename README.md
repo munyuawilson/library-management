@@ -18,5 +18,6 @@ the system sends a verification code to the user email and if correct the user i
 Security is accounted for and user cannot able to close the application. To make sure of this the application runs as a start-up application.
 
 **Run**
+<br>
 Run libman.py on terminal python libman.py or python3 libman.py
 
